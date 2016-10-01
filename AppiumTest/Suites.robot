@@ -8,7 +8,7 @@ n11 web login
     N11Login    ${FAILED_LOGIN_USER[0]}    ${FAILED_LOGIN_USER[1]}
 
 MobileTestCase
-    Open Application    remote_url=http://localhost:4723/wd/hub    appPackage=com.experitest.ExperiBank    platformName=android    deviceName=emulator-5554
+    Open Application    remote_url=http://localhost:4723/wd/hub    appPackage=com.experitest.ExperiBank    platformName=android    deviceName=dc672197    appActivity=LoginActivity
     Input Text    id=com.experitest.ExperiBank:id/usernameTextField    company
     Input Password    id=com.experitest.ExperiBank:id/passwordTextField    company
     Click Element    id=com.experitest.ExperiBank:id/loginButton
